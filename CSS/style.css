@@ -1,0 +1,277 @@
+ :root {
+    --oscuro:#212121;
+    --gris:#8a8a8a;
+    --blanco:#ffffff;
+    --grisclaro :#DFE9F3;
+    ---verde:rgb(12, 238, 42);
+    ---lila:rgb(168, 15, 173); 
+    ---amarillo:rgb(241, 238, 15);
+    --azul:rgb(21, 179, 241); 
+    
+
+
+}
+
+
+
+
+.cuerpo {
+    background-image: url(../img/cuervos\ fondo.jfif);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size:50%;
+    font-family: 'Source Serif Pro', serif;
+    
+  
+}
+
+.subtitulo{
+    font-size: 1.5rem;
+    color: var(--grisclaro);
+    
+   
+}
+
+
+
+header {
+    text-align: center;
+}
+
+.cuervo {
+    width: 75px;
+    height: 75px;
+}
+
+.yo-titulo{
+    font-size: 1.20rem;
+}
+.Yo {
+
+    text-align: center;
+    background-color: var(--oscuro);
+    color: #ffffff;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+
+main{
+    text-align: center;
+}
+
+
+.sombra{
+    background-color: var(--oscuro);
+    box-shadow: 1px 2px 11px 0px #050505;
+    padding: 2rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    /* margin: 0 auto; */
+    
+}
+
+.titulo{
+    color: var(--blanco);
+    font-size: 3.5rem;
+   
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat (4 , 1fr);
+    column-gap:  1rem;
+    margin-bottom: 2.5rem;
+    color: var(---amarillo);
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.servicio .iconos {
+    height: 10rem;
+    width: 10rem;
+    background-color: var(---verde) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo-servicio{
+    color: var(--blanco);
+    font-size: 2.5rem;
+}
+
+.trabajos {
+
+text-align: center;
+color: var(--blanco);
+
+}
+
+.correo {
+    text-decoration: none;
+    background-color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    color: #212121;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.correo :hover {
+    background-color: var(--oscuro);
+    color: var(---amarillo);
+}
+
+.hablar {
+    text-align: center;
+}
+
+.proyecto{
+    margin-top: 3rem;
+    width: 600px;
+    height: 400px;
+   
+
+}
+
+
+.iniciar{
+    text-decoration: none;
+    background-color: var(--oscuro);
+    border-radius: 1rem;
+    color:var(---amarillo);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+   
+}
+
+.parrafo {
+        font-size:  1.5rem;
+}
+
+.java{
+    width: 200px;
+    height: 200px;
+}
+
+.info{
+    color: var(--azul);
+    font-size: 2rem;
+   
+}
+
+.informe{
+    font-size: 3rem;
+    color: var(--blanco);
+}
+
+
+.Informia{
+ font-size: 1.25rem;
+ color: var(---amarillo);
+}
+
+
+.trabajos {
+    font-size: 2rem;
+}
+
+
+.trabajo{
+    font-size: 2rem;
+    color: var(--blanco);
+}
+.reciente {
+    font-size: 1.5rem;
+    color: var(--blanco);
+}
+
+
+/*Mensaje*/
+
+
+
+.formulario {
+    margin-top: 7rem;
+    background-color: var(--oscuro);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset{
+    border: none;
+    
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(---amarillo);
+}
+
+.campo label{
+    display: block;
+    color: var(---amarillo);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+
+.w90{
+    width: 90%;
+}
+
+.boton{
+    background-color: var(--oscuro);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    color: var(---amarillo);
+    font-weight: 700;
+    text-decoration:none ;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    width: 80%;
+    text-align: center;
+}
+
+
+.volver{
+    background-color: var(--oscuro);
+    text-decoration: none;
+    color: var(---lila);
+   margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
