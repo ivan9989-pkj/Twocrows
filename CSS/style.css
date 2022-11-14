@@ -63,6 +63,7 @@ main{
 
 
 .sombra{
+    
     background-color: var(--oscuro);
     box-shadow: 1px 2px 11px 0px #050505;
     padding: 2rem;
