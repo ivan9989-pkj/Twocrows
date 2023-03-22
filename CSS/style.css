@@ -12,22 +12,30 @@
 
 }
 
+.red{
+    color: red;
+    
+}
+
+.green{
+    color: green;
+   
+}
+
 
 
 
 .cuerpo {
-    background-image: url(../img/cuervos\ fondo.jfif);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size:50%;
-    font-family: 'Source Serif Pro', serif;
-    
+  
+  background-color: rgb(64, 56, 110);  
   
 }
 
 .subtitulo{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--grisclaro);
+    text-align: center;
+   
     
    
 }
@@ -36,6 +44,14 @@
 
 header {
     text-align: center;
+}
+
+.Cabeza-Principal{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(---amarillo);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .cuervo {
@@ -59,10 +75,12 @@ header {
 
 main{
     text-align: center;
+   
 }
 
 
 .sombra{
+    
     background-color: var(--oscuro);
     box-shadow: 1px 2px 11px 0px #050505;
     padding: 2rem;
@@ -71,10 +89,18 @@ main{
 }
 
 .contenedor {
-    max-width: 120rem;
+    max-width: 100rem;
     /* margin: 0 auto; */
     
 }
+
+@media (min-width:768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 
 .titulo{
     color: var(--blanco);
@@ -82,15 +108,12 @@ main{
    
 }
 
-.servicios {
-    display: grid;
-    grid-template-columns: repeat (4 , 1fr);
+
+
+.servicio{
     column-gap:  1rem;
     margin-bottom: 2.5rem;
     color: var(---amarillo);
-}
-
-.servicio{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,16 +164,29 @@ color: var(--blanco);
 
 .hablar {
     text-align: center;
+    margin-bottom: 5rem;
 }
 
-.proyecto{
-    margin-top: 3rem;
-    width: 600px;
-    height: 400px;
+
+
+.iniciar1{
+    text-decoration: none;
+    background-color: var(--oscuro);
+    border-radius: 1rem;
+    color:var(---amarillo);
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    
    
-
 }
 
+.iniciar1:hover{
+    background-color: var(---amarillo);
+    color: var(--oscuro);
+}
 
 .iniciar{
     text-decoration: none;
@@ -158,9 +194,10 @@ color: var(--blanco);
     border-radius: 1rem;
     color:var(---amarillo);
     padding: 1rem 3rem;
+    text-transform: uppercase;
     margin-top: 2rem;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1rem;
    
 }
 
@@ -206,6 +243,44 @@ color: var(--blanco);
 }
 
 
+
+
+.imagen-enlace{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px){
+
+    .imagen-enlace{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
+
+
+
+.imagen-enlace a{
+    margin:  0 10px;
+}
+
+.imagen-enlace img {
+    max-width:100% ;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: auto;
+}
+
+
+
+
+
+
+
 /*Mensaje*/
 
 
@@ -235,6 +310,7 @@ color: var(--blanco);
     color: var(---amarillo);
     font-weight: bold;
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
 
 }
 
@@ -263,15 +339,44 @@ color: var(--blanco);
     border-radius: 0.5rem;
     border: none;
     width: 80%;
-    text-align: center;
+    text-align: left;
+}
+
+.boton:hover{
+    background-color: #4CAF50;
+    color: white;
 }
 
 
+.volver1{
+    
+   
+    background-color: var(--oscuro);
+    text-decoration: none;
+    color: var(---amarillo);
+    border-radius: 0.3rem ;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.volver1:hover{
+    background-color:#4CAF50 ;
+    color: white;
+}
+
 .volver{
+    
+   
     background-color: var(--oscuro);
     text-decoration: none;
     color: var(---lila);
-   margin-top: 2rem;
+    border-radius: 0.3rem ;
     padding: 1rem 3rem;
-    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.volver:hover{
+    background-color:var(--blanco);
+    color: var(--oscuro);
 }
